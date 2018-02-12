@@ -28,9 +28,6 @@ Pod::Spec.new do |s|
     s.pod_target_xcconfig = {
         'SWIFT_VERSION' => '4.0'
     }
-
-    s.dependency 'Socket.IO-Client-Swift', '~>13.1.0'
-
     s.ios.resource_bundles = {
     'LocalizationKit' => ['Assets/ios/*.{storyboard,xib}']
     }
